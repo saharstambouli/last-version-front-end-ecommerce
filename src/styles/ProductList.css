@@ -1,0 +1,21 @@
+button.Show {
+  border: 1px solid #B88E2F;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #B88E2F;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  margin-top: 15px;
+}
+
+button.Show:hover {
+  background-color: #B88E2F;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
